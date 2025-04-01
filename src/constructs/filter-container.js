@@ -1,6 +1,6 @@
 import { SwimlaneElement, html, css } from '@swimlane/swimlane-element@2';
 import { SlitDropdownMenu } from '../elements/dropdown-menu.js';
-import { SlitTextbox } from '../elements/textbox.js';
+import { SlitTextbox } from '../elements/text-box.js';
 import { SlitButton } from '../elements/button.js';
 
 export class FilterContainer extends SwimlaneElement {
