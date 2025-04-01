@@ -1,0 +1,39 @@
+# Node modules and dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# VSCode or other editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing output / coverage
+coverage/
+*.lcov
+
+# Environment files
+.env
+.env.*
+
+# Files created by bundlers (if you use one later)
+*.bundle.js
+*.min.js
+*.map
+
+# Local dev artifacts
+*.local.js
