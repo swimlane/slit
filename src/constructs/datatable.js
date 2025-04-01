@@ -1,7 +1,7 @@
 import { SwimlaneElement, html, css } from '@swimlane/swimlane-element@2';
-import { SlitButton } from '../elements/button.js';
-import { SlitPagination } from '../elements/pagination.js';
-import { SlitRoundCheckbox } from '../elements/round-checkbox.js';
+import { Button } from '../elements/button.js';
+import { Pagination } from '../elements/pagination.js';
+import { RoundCheckbox } from '../elements/round-checkbox.js';
 import { LoadingSpinner } from '../elements/loading-spinner.js';
 
 export class DataTable extends SwimlaneElement {
