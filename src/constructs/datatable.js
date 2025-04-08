@@ -4,7 +4,7 @@ import { Pagination } from '../elements/pagination.js';
 import { RoundCheckbox } from '../elements/round-checkbox.js';
 import { LoadingSpinner } from '../elements/loading-spinner.js';
 
-export class DataTable extends SwimlaneElement {
+export class SlitDataTable extends SwimlaneElement {
 
     static get properties() {
         return {
@@ -295,8 +295,6 @@ export class DataTable extends SwimlaneElement {
 
     handleHeaderCheckboxChange(e) {
 
-        // this.allRecordsChecked = !this.allRecordsChecked;
-
         const checked = e.target.checked;
 
         this.selectedIds.clear();
@@ -336,5 +334,5 @@ export class DataTable extends SwimlaneElement {
 }
 
 if (customElements.get('slit-data-table') === undefined) {
-    customElements.define('slit-data-table', DataTable);
+    customElements.define('slit-data-table', SlitDataTable);
 }
